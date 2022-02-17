@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  height: 20%;
+  background-color: lightgreen;
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
+.logo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.intro {
+  display: flex;
+}
+
+.feature-image,
+.intro-text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box {
+  width: 22%;
+  height: 200px;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  height: 200px;
+}
+
+.contact {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgreen;
+}
+
+@media screen and( min-width:480px) {
+  .video iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+@media screen and( max-width:480px) {
+  .video iframe {
+    width: 560px;
+    height: 315px;
+  }
+}
